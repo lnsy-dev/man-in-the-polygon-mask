@@ -44,8 +44,10 @@ Many suspect Surkov of writing under the pen name Natan Dubovistky, a middling p
 
 But if we do look at Surkov from the Dubovitsky angle we can get a sense of his general strategy. Take the story "Without Sky", first published in Russian Pioneer magazine in early 2014, before the "little green men" annexation of Ukraine:
 
-"The goals of those in conflict were quite varied. Each had his own, so to speak: the seizing of disputed pieces of territory; the forced establishment of a new religion; higher ratings or rates; the testing of new military rays and airships; the final ban on separating people into male and female, since sexual differentiation undermines the unity of the nation; and so forth.
+""The goals of those in conflict were quite varied. Each had his own, so to speak: the seizing of disputed pieces of territory; the forced establishment of a new religion; higher ratings or rates; the testing of new military rays and airships; the final ban on separating people into male and female, since sexual differentiation undermines the unity of the nation; and so forth.
 
 The simple-hearted commanders of the past strove for victory. Now they did not act so stupidly. That is, some, of course, still clung to the old habits and tried to exhume from the archives old slogans of the type: victory will be ours. It worked in some places, but basically, war was now understood as a process, more exactly, part of a process, its acute phase, but maybe not the most important.
 
 Some peoples joined the war specifically to be defeated. They were inspired by the flowering of Germany and France after being routed in the second World War. It turned out that to achieve such a defeat was no simpler than achieving victory. Determination, sacrifice, and the extraordinary exertion of all forces were required, and, in addition, flexibility, cold-bloodedness, and the ability to profitably administer one's own cowardice and dullness."
+
+See also: [[Almost-Zero]], [[Post-Surkovian Media Strategy]]"

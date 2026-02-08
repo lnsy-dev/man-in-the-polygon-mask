@@ -11,3 +11,5 @@ title: "Simulator Sickness"
 My labrythnthitis and VR combine to make me ill,
 
 some combination of nostalgia and retro futurism, either way, the world feels like it is moving from underneath my feet.
+
+See also: [[Neo Rausch]], [[Labyrinths]]

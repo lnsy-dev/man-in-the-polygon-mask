@@ -13,3 +13,5 @@ year: 2017
 
 ---
 Sovreign is he who controls the shitstorms of the net
+
+See also: [[Byun-Chul-Han]], [[Post-Surkovian Media Strategy]]

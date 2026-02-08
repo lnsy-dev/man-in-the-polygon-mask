@@ -24,3 +24,5 @@ a complex structure in the inner ear that contains the organs of hearing and bal
 
 # Biography
 I live in and generate a labyrinth. My mind is a series of connections, concepts, some overlapping, some contradicting. I am writing this, generating this text as a method of way finding.
+
+See also: [[Germany]], [[Simulator Sickness]]

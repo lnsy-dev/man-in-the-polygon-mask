@@ -15,3 +15,5 @@ title: "Post Capitalist Realism"
 ---
 
 A type of painting that uses modern technologies (web cameras, digitally generated charts) as a viewpoint, but not as any formal technique
+
+See also: [[Capitalist Realism]], [[Neo Rausch]], [[Leipzig]]

@@ -12,3 +12,5 @@ title: "Paper Work Conciousness"
 Eventually, once the AI has taken hold, the world would return to it's normal state: being unaware of capitals influence on their life. It will seem distant. Something whose second order effects are felt months or years later, an unreality combined with precarity.
 
 Who will be able to see through this thick fog of information, corporate mergers and anti-trade politics?
+
+See also: [[Charismatic Mega Algorithm]], [[Flash Crash Kamikaze Business]]

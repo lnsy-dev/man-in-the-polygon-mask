@@ -11,3 +11,5 @@ title: "Assymetrical information warfare, bot swarms & post-Westphalian media st
 The modern media landscape has never been so atomize, conflicted nor powerful. We need new strategies, organizational structures and techniques to generate and counteract online shitstorms.
 
 Bots are not new to the internet, in fact have been present in the eco system since nearly the beginning. Usenet, Gopher and IRC all were battlegrounds of spam, swarms of bots and counter-bot scripts and rumor generation and broadcast.
+
+See also: [[Post-Surkovian Media Strategy]], [[Swarm Velocity and Vectors]]

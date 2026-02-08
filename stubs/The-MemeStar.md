@@ -35,3 +35,5 @@ I'm just a mercenary, and you can only write the same hostile-Actuary algorithms
 ## Footnotes
 
 To understand security culture, we recomend looking into the work of Schuyler Townes on Early 21st Century Security Culture http://schuylertowne.com/research/rethinking-the-origins-of-the-lock
+
+See also: [[Charismatic Mega Algorithm]], [[Post-Surkovian Media Strategy]]

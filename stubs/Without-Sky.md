@@ -79,3 +79,5 @@ We will come tomorrow. We will conquer or perish. There is no third way.
 
 
 Translation copyright Â© 2014 by Bill Bowler
+
+See also: [[Post-Surkovian Media Strategy]], [[Almost-Zero]]

@@ -11,3 +11,5 @@ title: "Pink Slime Conciousness"
 
 Plot:
 A vat of lab grown meat gains conciousness, begins to grow at a logarithmic pace.
+
+See also: [[Venice Beach Disaster]], [[The Oily Discharge]], [[Bio-Plastic Sentience Hypothesis]]

@@ -9,3 +9,5 @@ title: "Post-Capitalist Accelerationism"
 ---
 
 In political and social theory, accelerationism is the idea that either the prevailing system of capitalism, or certain technosocial processes that have historically characterised it, should be expanded, repurposed, or accelerated in order to generate radical social change.
+
+See also: [[post-ecology]], [[Charismatic Mega Algorithm]]

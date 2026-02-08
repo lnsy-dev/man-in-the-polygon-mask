@@ -16,4 +16,6 @@ year: 2017
 ---
 The memoir of a literary hack / oligarch in the heady post-Soviet days in Russia. Too post-modern for its own good, is it a window into Vladislav Surkov and the other Oligarch's thinking or a smoke screen?
 
-Often times when dealing with the post-Surkovian media viewpoint we must ask: what is true, or, what is the most interesting lie?
+Often times when dealing with the [[Post-Surkovian Media Strategy]] viewpoint we must ask: what is true, or, what is the most interesting lie?
+
+See also: [[Without-Sky]]

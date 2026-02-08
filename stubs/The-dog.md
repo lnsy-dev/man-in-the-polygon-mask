@@ -18,3 +18,5 @@ How did a dog get there, how did she survive?
 Life finds liminal spaces, most of us shun it, but some will carve out a brutish living out of despiration or something visionary. Who can tell the difference between the two? I do not feel equipped.
 
 I find myself thinking about her, about her puppies, and I think about the homeless men and women who live under the highway interchange, all the other denizens carving out a place in this concrete island, trapped there. I'm simply a tourist, I pass through it, I do not live it.
+
+See also: [[Labyrinths]], [[Miami]]

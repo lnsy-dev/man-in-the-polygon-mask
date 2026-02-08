@@ -23,3 +23,5 @@ A Painting by Leonora Carrington
 https://www.youtube.com/watch?v=BNQg1NeWfGI
 
 https://www.moma.org/magazine/articles/239
+
+See also: [[Labyrinths]]

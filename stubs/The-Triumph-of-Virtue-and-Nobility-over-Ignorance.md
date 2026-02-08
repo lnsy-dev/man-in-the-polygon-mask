@@ -17,3 +17,5 @@ There are the obligatory puti, doing their puti things-- blowing horns, observin
 The painting, in composition, seems to owe a lot to numerous versions of the Fall of Lucifer, homogenized and gussied up for the sophisticated Rococoo set -- instead of the Adversary, we have Ignorance -- of course, ignorance is a person of color, expressing the colonizer instincts of his age.
 
 It is a classic Tiepolo: the perspect, you are on the ground looking up at a pastel wonder land.
+
+See also: [[Labyrinths]]

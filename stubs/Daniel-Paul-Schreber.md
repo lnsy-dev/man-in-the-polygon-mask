@@ -32,3 +32,5 @@ Caravaggio found the fleshy and the grotesque of his world, that faith belonged 
 I suppose Goya, before him, understood this also. That the most terrible horrors are the ones inside of you. Most of us are too polite, too concerned with how they look to let these visions out.
 
 How did they see that? What did they find down there? The question gnaws at me, more than anything else in my life.
+
+See also: [[Germany]], [[Labyrinths]]

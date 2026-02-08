@@ -18,3 +18,5 @@ Sincere activists are amplified by insincere Russian Bots, support of the bots d
 We need new tools to understand the swarm, to analyze and navigate this new terrain.
 
 A new map for new terrains.
+
+See also: [[Swarm Velocity and Vectors]], [[Post-Surkovian Media Strategy]]

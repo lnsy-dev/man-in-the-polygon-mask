@@ -17,3 +17,4 @@ title: "The Meat Mind Collective - toward a post-modern rivival in late-stage ag
 ---
 
 The Meat Mind Collective most famous for the Venice Beach Disaster, were a Los Angeles Based art collective who used mans new relationship to meat as a driving mechanic of their performance, augmented reality and terrariums practice
+See also: [[Venice Beach Disaster]], [[Rebecca Stein]]

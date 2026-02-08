@@ -28,3 +28,5 @@ I am not going to deny preservatives, dyes and other chemical processes can have
 ## Humans have always changed nature
 
 Painters, human interferance, The Mushroom at the end of the world, etc
+
+See also: [[Bio-Plastic Sentience Hypothesis]], [[Post-Capitalist Accelerationism]]

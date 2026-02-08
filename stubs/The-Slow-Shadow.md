@@ -18,3 +18,4 @@ create a fiction, not a living creature
 not one of those who wander on the earth
 
 -Borges
+See also: [[Slender Man]], [[The Walker In The Snow]]

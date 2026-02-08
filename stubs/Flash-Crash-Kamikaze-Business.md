@@ -10,7 +10,7 @@ summary: null
 title: "Flash Crash! Kamikaze Business"
 
 ---
-If there is a virus in the paper work, a charismatic mega-algorithm and decision tree, then staging advantageous economic meltdowns could be an effective strategy.
+If there is a virus in the [[Paper Work Conciousness]], a [[Charismatic Mega Algorithm]] and decision tree, then staging advantageous economic meltdowns could be an effective strategy.
 
 It would work like this:
 
