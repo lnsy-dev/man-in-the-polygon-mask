@@ -8,15 +8,13 @@
   <script type="module" src="./src/index.js"></script>
   <script type="module" src="./src/html-partial.js"></script>
 
+  <link rel="stylesheet" type="text/css" href="./assets/fonts/3270-fonts.css">
   <link rel="stylesheet" type="text/css" href="./src/geo-map.css">
   <link rel="stylesheet" type="text/css" href="./assets/vendor/normalize.css">
   <style>
 
-    @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,700;1,400&display=swap');
-
     h1,h2,h3,h4,h5 {
-      font-family: 'IBM Plex Mono', monospace;
-
+      font-family: '3270', monospace;
     }
 
     map-information-box {
@@ -33,7 +31,7 @@
 
     body {
       background-color: black;
-      font-family: 'IBM Plex Mono', monospace;
+      font-family: '3270', monospace;
     }
 
     .bg-image {
@@ -49,6 +47,16 @@
     :root {
       --foreground-color: #00ff00;
       --background-color: rgba(0,0,0,0.8);
+    }
+
+    .wiki-link {
+      color: var(--foreground-color);
+      text-decoration: underline;
+      cursor: pointer;
+    }
+
+    .wiki-link:hover {
+      opacity: 0.7;
     }
   </style>
 </head>
@@ -67,6 +75,21 @@
 
     ready( () => {
       geo_map.dispatchEvent(new CustomEvent('SHOW HOME'))
+      
+      // Handle wiki link clicks
+      document.addEventListener('click', (e) => {
+        if (e.target.classList.contains('wiki-link')) {
+          e.preventDefault()
+          const targetId = e.target.getAttribute('href').substring(1)
+          const targetLocation = document.querySelector(`map-location[id="${targetId}"]`)
+          if (targetLocation) {
+            const slideshow = geo_map.map._controls.find(c => c.selectLocation)
+            if (slideshow) {
+              slideshow.selectLocation(targetLocation)
+            }
+          }
+        }
+      })
     })
   </script>
   

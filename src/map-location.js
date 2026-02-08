@@ -33,7 +33,7 @@ export class GeoMapLocation extends GeoMapElement {
     }
 
     this.markers.forEach(marker => {
-      marker.initialize(this.geo_map.map, [this.longitude, this.latitude])
+      marker.initialize(this.geo_map.map, [this.longitude, this.latitude], this)
     })
   }
 

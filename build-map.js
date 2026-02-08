@@ -15,6 +15,13 @@ function getNewID() {
   }) + Date.now()
 }
 
+function processWikiLinks(text) {
+  return text.replace(/\[\[([^\]]+)\]\]/g, (match, linkText) => {
+    const id = linkText.trim().toLowerCase().replace(/\s+/g, '-')
+    return `<a href="#${id}" class="wiki-link">${linkText}</a>`
+  })
+}
+
 
 
 while(dirs.length > 0){
@@ -31,6 +38,7 @@ while(dirs.length > 0){
 			const yaml = matter.read(`${__dirname}/${dir}/${file}`);
 			const data = yaml.data
 			const html_code = parser.parse(utf8.encode(yaml.content)).innerHTML;
+			const html_with_links = processWikiLinks(html_code)
 			
 			if(!data.id){
 				data.id = getNewID()
@@ -41,15 +49,17 @@ while(dirs.length > 0){
 			}
 
 
-			// Every location is random 
-			data.latitude = 34.05 + (Math.random() - 0.5)
-			data.longitude = -118.25 + (Math.random() - 0.5)
-			data.zoom = Math.random() * 20
-			data.bearing = Math.random() * 360
-			data.pitch = Math.random() * 360
-			data.img = 
+			// Set coordinates from frontmatter or default to LA area
+			if (!data.latitude || !data.longitude) {
+				data.latitude = 34.05 + (Math.random() - 0.5)
+				data.longitude = -118.25 + (Math.random() - 0.5)
+			}
+			data.zoom = data.zoom || Math.random() * 20
+			data.bearing = data.bearing || Math.random() * 360
+			data.pitch = data.pitch || Math.random() * 360 
 		
-
+			// Determine icon type from metadata
+			const type = data.type || (data.labels && data.labels[0]) || 'default'
 
 			stubs += `
       <map-location
@@ -59,10 +69,12 @@ while(dirs.length > 0){
         bearing=${data.bearing}
         pitch=${data.pitch}
         id=${data.id}
+        data-type="${type}"
       >
-        <h1>${data.title}</h1>
+        <map-marker type="${type}"></map-marker>
+        <h1><map-marker type="${type}"></map-marker>${data.title}</h1>
         <article class="content">
-          ${html_code}
+          ${html_with_links}
         </article>
 
       </map-location>

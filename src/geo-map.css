@@ -121,6 +121,15 @@ map-information-box a {
 map-information-box h1 {
   line-height: 1em;
   text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+map-information-box h1 svg {
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
 }
 
 
@@ -130,7 +139,11 @@ map-information-box img, map-information-box video {
 }
 
 map-information-box map-marker {
-  display:  none;
+  display: none;
+}
+
+map-information-box h1 map-marker {
+  display: inline-block;
 }
 
  @media screen and (orientation:portrait) {
