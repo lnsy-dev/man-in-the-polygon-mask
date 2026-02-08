@@ -2,8 +2,9 @@ import * as THREE from 'three'
 import { OrbitControls } from 'https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/controls/OrbitControls.js'
 
 export class DataViz {
-  constructor(container) {
+  constructor(container, map) {
     this.container = container
+    this.map = map
     this.scene = new THREE.Scene()
     this.camera = new THREE.PerspectiveCamera(75, container.clientWidth / container.clientHeight, 0.1, 1000)
     this.camera.position.z = 5
@@ -18,6 +19,8 @@ export class DataViz {
     this.controls.dampingFactor = 0.05
     this.controls.autoRotate = true
     this.controls.autoRotateSpeed = 2
+    
+    this.lastAzimuth = this.controls.getAzimuthalAngle()
     
     this.currentViz = null
     this.animate()
@@ -163,6 +166,16 @@ export class DataViz {
     requestAnimationFrame(() => this.animate())
     
     this.controls.update()
+    
+    const currentAzimuth = this.controls.getAzimuthalAngle()
+    const delta = currentAzimuth - this.lastAzimuth
+    
+    if (Math.abs(delta) > 0.001 && this.map) {
+      const currentBearing = this.map.getBearing()
+      this.map.setBearing(currentBearing - (delta * 30))
+    }
+    
+    this.lastAzimuth = currentAzimuth
     
     if (this.currentViz) {
       this.currentViz.rotation.y += 0.005

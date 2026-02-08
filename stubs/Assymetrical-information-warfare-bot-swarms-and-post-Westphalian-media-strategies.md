@@ -1,5 +1,5 @@
 ---
-date: "Fri 23 Feb 2018 06:07:33 AM PST"
+date: "Fri 23 Feb 2058 06:07:33 AM PST"
 id: "multivalent-media-strategy"
 labels:
   - "concept"

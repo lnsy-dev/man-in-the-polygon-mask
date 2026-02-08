@@ -2,7 +2,7 @@
 id: "venice-beach-disaster"
 title: "The Venice Beach Disaster"
 type: "event"
-date: "Sat 07 Feb 2026 05:24:38 PM PST"
+date: "Sat 07 Feb 2066 05:24:38 PM PST"
 pullQuote: "By the time we realized it wasn't part of the piece, it was too late."
 ---
 

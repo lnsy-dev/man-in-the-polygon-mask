@@ -2,39 +2,39 @@
 id: "robert-chen-bio-materials"
 title: "Dr. Robert Chen"
 type: "person"
-date: "Sat 07 Feb 2026 05:28:03 PM PST"
+date: "Sat 07 Feb 2066 05:28:03 PM PST"
 pullQuote: "Bio-plastics are inert materials. They don't want anything. They can't want anything."
 ---
 
 **Robert Chen, PhD**
 
-President, Bio-Materials Industry Association (2022-Present)
+President, Bio-Materials Industry Association (2062-Present)
 
 **Education**
 
-PhD, Materials Science and Engineering, MIT (2008)  
-MS, Chemical Engineering, Stanford University (2004)  
-BS, Chemistry, UC Berkeley (2002)
+PhD, Materials Science and Engineering, MIT (2048)  
+MS, Chemical Engineering, Stanford University (2044)  
+BS, Chemistry, UC Berkeley (2042)
 
 **Professional Experience**
 
 *Bio-Materials Industry Association, Washington, DC*  
-President (2022-Present)
+President (2062-Present)
 - Represents 340+ bio-materials manufacturers
-- Led successful lobbying effort to overturn California bio-plastic ban (February 2026)
-- Testified before Congress on bio-materials safety (March 2026)
+- Led successful lobbying effort to overturn California bio-plastic ban (February 2066)
+- Testified before Congress on bio-materials safety (March 2066)
 
 *NatureWorks LLC, Minnetonka, MN*  
-Vice President, Research and Development (2015-2022)
+Vice President, Research and Development (2055-2062)
 
 *DuPont Industrial Biosciences, Wilmington, DE*  
-Senior Research Scientist (2010-2015)
+Senior Research Scientist (2050-2055)
 
 **Industry Leadership**
 
-Board Member, Society of Plastics Engineers (2018-Present)  
-Advisory Committee, National Institute of Standards and Technology (2020-Present)  
-Consultant, FDA Center for Devices and Radiological Health (2019-2024)
+Board Member, Society of Plastics Engineers (2058-Present)  
+Advisory Committee, National Institute of Standards and Technology (2060-Present)  
+Consultant, FDA Center for Devices and Radiological Health (2059-2064)
 
 **Patents**
 
@@ -42,7 +42,7 @@ Holder of 23 patents related to bio-plastic manufacturing and applications
 
 **Publications**
 
-*The Bio-Plastic Revolution: Sustainable Materials for the 21st Century* (Wiley, 2020)  
+*The Bio-Plastic Revolution: Sustainable Materials for the 21st Century* (Wiley, 2060)  
 Over 60 peer-reviewed articles in materials science journals
 
 **Public Statements on Venice Beach Incident**

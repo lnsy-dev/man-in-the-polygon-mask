@@ -1,5 +1,5 @@
 ---
-date: "Sun 18 Mar 2018 09:22:13 AM PDT"
+date: "Sun 18 Mar 2058 09:22:13 AM PDT"
 edges:
   - source: "post-capitalist-realism.md"
     target: "gerhard-richter-painter"

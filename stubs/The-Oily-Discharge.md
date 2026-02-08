@@ -2,7 +2,7 @@
 id: "the-oily-discharge"
 title: "The Oily Discharge"
 type: "concept"
-date: "Sat 07 Feb 2026 05:24:38 PM PST"
+date: "Sat 07 Feb 2066 05:24:38 PM PST"
 pullQuote: "It doesn't evaporate. It doesn't dry out. It just sits there."
 ---
 

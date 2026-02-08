@@ -78,16 +78,16 @@
       left: 0em;
       top:  0em;
       width:  30em;
+      z-index: 9500;
     }
 
     #viz-container {
       position: fixed;
-      right: 0;
-      top: 0;
-      width: 400px;
-      height: 100vh;
-      background: rgba(0, 26, 0, 0.3);
-      border-left: 2px solid #00ff00;
+      right: 10%;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 300px;
+      height: 300px;
       z-index: 8000;
     }
     
@@ -227,7 +227,7 @@
     import { DataViz } from './src/viz.js'
 
     ready( () => {
-      const viz = new DataViz(document.getElementById('viz-container'))
+      const viz = new DataViz(document.getElementById('viz-container'), geo_map.map)
       
       // Update viz on location change
       const observer = new MutationObserver(() => {

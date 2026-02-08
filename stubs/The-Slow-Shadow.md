@@ -1,6 +1,6 @@
 ---
 author: "Jorge Luis Borges"
-date: "Thu 22 Feb 2018 02:24:59 PM PST"
+date: "Thu 22 Feb 2058 02:24:59 PM PST"
 id: "the-slow-shadow"
 label:
   - "quote"

@@ -1,5 +1,5 @@
 ---
-date: "Thu 22 Feb 2018 09:35:34 AM PST"
+date: "Thu 22 Feb 2058 09:35:34 AM PST"
 edges:
   - source: "post-ecology"
     target: "post-capitalist-accelerationism"

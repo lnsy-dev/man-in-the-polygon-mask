@@ -1,5 +1,5 @@
 ---
-date: "Thu 22 Feb 2018 10:02:43 AM PST"
+date: "Thu 22 Feb 2058 10:02:43 AM PST"
 id: "post-capitalist-accelerationism"
 labels:
   - "concept"

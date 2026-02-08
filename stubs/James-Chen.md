@@ -2,13 +2,13 @@
 id: "james-chen-meat-mind"
 title: "James Chen"
 type: "person"
-date: "Sat 07 Feb 2026 05:28:03 PM PST"
+date: "Sat 07 Feb 2066 05:28:03 PM PST"
 pullQuote: "I should have been with them. I don't know why I wasn't."
 ---
 
 **James Chen**
 
-Former Member, Meat Mind Collective (2023-2026)
+Former Member, Meat Mind Collective (2063-2066)
 
 **Professional Summary**
 
@@ -16,14 +16,14 @@ Interdisciplinary artist and bio-materials researcher specializing in post-carni
 
 **Education**
 
-MFA, Experimental Media, California Institute of the Arts (2022)  
-BS, Molecular Biology, UC Berkeley (2018)
+MFA, Experimental Media, California Institute of the Arts (2062)  
+BS, Molecular Biology, UC Berkeley (2058)
 
 **Selected Exhibitions**
 
-"Flesh Futures," MOCA Los Angeles (2024)  
-"The Meat Remembers," Venice Biennale (2025)  
-"Post-Carnivorous Sublime," Meat Mind Collective, Venice Beach (2026, terminated)
+"Flesh Futures," MOCA Los Angeles (2064)  
+"The Meat Remembers," Venice Biennale (2065)  
+"Post-Carnivorous Sublime," Meat Mind Collective, Venice Beach (2066, terminated)
 
 **Research Interests**
 
@@ -34,12 +34,12 @@ BS, Molecular Biology, UC Berkeley (2018)
 
 **Publications**
 
-"Toward a Phenomenology of Meat," *Art Journal* (2024)  
-"The Ethics of Growing Consciousness," *Leonardo* (2025)
+"Toward a Phenomenology of Meat," *Art Journal* (2064)  
+"The Ethics of Growing Consciousness," *Leonardo* (2065)
 
 **Professional Activities**
 
-Provided testimony to federal investigators regarding Venice Beach incident (February 2026). Sole surviving founding member of Meat Mind Collective willing to speak publicly about the project.
+Provided testimony to federal investigators regarding Venice Beach incident (February 2066). Sole surviving founding member of Meat Mind Collective willing to speak publicly about the project.
 
 **Statement**
 
