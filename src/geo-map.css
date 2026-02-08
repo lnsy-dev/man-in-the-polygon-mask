@@ -100,7 +100,6 @@ map-information-box {
   font-size: 18pt;
   margin: auto;
   left: 50%;
-  transform: translatex(-50%);
   max-width:  30em;
   max-height: calc(100% - 6em);
   line-height: 1.25em;
