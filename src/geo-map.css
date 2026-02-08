@@ -89,6 +89,10 @@ map-key {
   opacity: 1;
 }
 
+.mapboxgl-ctrl-group {
+  display: none;
+}
+
 map-information-box {
   position:  absolute;
   z-index: 2;
@@ -96,7 +100,7 @@ map-information-box {
   left: 0em;
   top:  0em;
   max-width:  30em;
-  max-height: calc(100% - 14em);
+  max-height: calc(100% - 8em);
   line-height: 1.25em;
   height: auto;
   overflow-x:  hidden;
