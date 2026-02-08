@@ -3,6 +3,7 @@ id: "michael-torres-sergeant"
 title: "Sgt. Michael Torres"
 type: "person"
 date: "Sat 07 Feb 2026 05:28:03 PM PST"
+pullQuote: "This was something trying to become something else. And I think it succeeded."
 ---
 
 **Michael Anthony Torres**

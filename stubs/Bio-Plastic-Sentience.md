@@ -3,6 +3,7 @@ id: "bio-plastic-sentience"
 title: "Bio-Plastic Sentience Hypothesis"
 type: "concept"
 date: "Sat 07 Feb 2026 05:24:38 PM PST"
+pullQuote: "It negotiated with the plastic. It convinced the plastic to open."
 ---
 
 **CAMBRIDGE, Mass. (AP)** — A controversial research paper published in the journal *Nature Materials* has reignited debate over the safety of bio-plastic manufacturing following last month's incident in Venice Beach, California.

@@ -3,6 +3,7 @@ id: "venice-beach-disaster"
 title: "The Venice Beach Disaster"
 type: "event"
 date: "Sat 07 Feb 2026 05:24:38 PM PST"
+pullQuote: "By the time we realized it wasn't part of the piece, it was too late."
 ---
 
 **VENICE BEACH, Calif. (AP)** — Federal authorities have extended the quarantine zone around Venice Beach for an additional six months following what officials are calling "an ongoing biological containment situation."

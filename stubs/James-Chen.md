@@ -3,6 +3,7 @@ id: "james-chen-meat-mind"
 title: "James Chen"
 type: "person"
 date: "Sat 07 Feb 2026 05:28:03 PM PST"
+pullQuote: "I should have been with them. I don't know why I wasn't."
 ---
 
 **James Chen**

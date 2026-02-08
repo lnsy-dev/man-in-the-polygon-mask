@@ -96,7 +96,7 @@ map-information-box {
   left: 0em;
   top:  0em;
   max-width:  30em;
-  max-height: calc(100% - 5em);
+  max-height: calc(100% - 14em);
   line-height: 1.25em;
   height: auto;
   overflow-x:  hidden;
@@ -124,6 +124,27 @@ map-information-box h1 {
   display: flex;
   align-items: center;
   gap: 0.5em;
+  font-weight: 700;
+  font-stretch: condensed;
+  letter-spacing: 0.05em;
+}
+
+map-information-box h2 {
+  font-family: '3270 Propo', monospace;
+  font-weight: 600;
+  font-stretch: semi-condensed;
+}
+
+map-information-box strong {
+  font-weight: 700;
+  font-stretch: condensed;
+  letter-spacing: 0.02em;
+}
+
+map-information-box em {
+  font-family: '3270 Propo', monospace;
+  font-style: italic;
+  font-weight: 500;
 }
 
 map-information-box h1 svg {

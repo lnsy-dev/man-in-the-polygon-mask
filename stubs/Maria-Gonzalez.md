@@ -3,6 +3,7 @@ id: "maria-gonzalez-taco-vendor"
 title: "Maria Gonzalez"
 type: "person"
 date: "Sat 07 Feb 2026 05:28:03 PM PST"
+pullQuote: "It was wriggling itself into the bio-plastic casing. Then it started leaking this oily stuff."
 ---
 
 **Maria Elena Gonzalez**

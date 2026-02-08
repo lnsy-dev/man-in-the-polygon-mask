@@ -13,8 +13,56 @@
   <link rel="stylesheet" type="text/css" href="./assets/vendor/normalize.css">
   <style>
 
-    h1,h2,h3,h4,h5 {
+    h1 {
       font-family: '3270', monospace;
+      font-weight: 700;
+      font-stretch: condensed;
+      letter-spacing: 0.05em;
+    }
+
+    h2 {
+      font-family: '3270 Propo', monospace;
+      font-weight: 600;
+      font-stretch: semi-condensed;
+    }
+
+    h3 {
+      font-family: '3270 Mono', monospace;
+      font-weight: 500;
+    }
+
+    h4 {
+      font-family: '3270', monospace;
+      font-weight: 400;
+      font-stretch: condensed;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+
+    h5 {
+      font-family: '3270 Propo', monospace;
+      font-weight: 400;
+      font-style: italic;
+    }
+
+    strong {
+      font-weight: 700;
+      font-stretch: condensed;
+      letter-spacing: 0.02em;
+    }
+
+    em {
+      font-family: '3270 Propo', monospace;
+      font-style: italic;
+      font-weight: 500;
+    }
+
+    b {
+      font-weight: 700;
+    }
+
+    i {
+      font-style: italic;
     }
 
     map-information-box {
@@ -27,6 +75,70 @@
     
     .mapboxgl-ctrl-top-right {
       z-index: 9001;
+    }
+
+    .mapboxgl-ctrl button {
+      width: 60px !important;
+      height: 60px !important;
+      background-color: #001a00 !important;
+      border: 2px solid #00ff00 !important;
+    }
+
+    .mapboxgl-ctrl button:hover {
+      background-color: #003300 !important;
+    }
+
+    .mapboxgl-ctrl button .mapbox-ctrl-icon svg {
+      width: 32px !important;
+      height: 32px !important;
+      fill: #00ff00 !important;
+    }
+
+    #control-panel {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 80px;
+      background-color: rgba(0, 26, 0, 0.95);
+      border-top: 2px solid #00ff00;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1em;
+      padding: 0 2em;
+      z-index: 9000;
+    }
+
+    #control-panel button {
+      width: 60px;
+      height: 60px;
+      background-color: #001a00;
+      border: 2px solid #00ff00;
+      color: #00ff00;
+      font-size: 24px;
+      cursor: pointer;
+      font-family: '3270', monospace;
+    }
+
+    #control-panel button:hover {
+      background-color: #003300;
+    }
+
+    #control-panel input {
+      flex: 1;
+      max-width: 600px;
+      height: 50px;
+      background-color: #001a00;
+      border: 2px solid #00ff00;
+      color: #00ff00;
+      font-family: '3270', monospace;
+      font-size: 18px;
+      padding: 0 1em;
+    }
+
+    #control-panel input::placeholder {
+      color: #006600;
     }
 
     body {
@@ -58,12 +170,33 @@
     .wiki-link:hover {
       opacity: 0.7;
     }
+
+    .pull-quote {
+      font-family: '3270', monospace;
+      font-weight: 700;
+      font-stretch: condensed;
+      font-size: 3em;
+      line-height: 0.9;
+      letter-spacing: -0.02em;
+      color: var(--foreground-color);
+      margin: 1em 0;
+      padding: 0.5em;
+      text-transform: uppercase;
+      opacity: 0.9;
+    }
   </style>
 </head>
 
 <body>
 
   <div class="bg-image"></div>
+  
+  <div id="control-panel">
+    <button id="prev-btn">◄</button>
+    <input type="text" id="search-input" placeholder="Search stubs...">
+    <button id="next-btn">►</button>
+  </div>
+
   <geo-map accesstoken=pk.eyJ1IjoibGluZHNleW15c3NlIiwiYSI6ImNqOGNlYjMzbDA5am8zMmxid2oyc3hrc2cifQ.hK6NXKEl7bK7va2pRtY0Yw styleurl=mapbox://styles/lindseymysse/ckpkn1d2p345j17lm7c2m8oax id=geo_map latitude="33.9447848697952" longitude="-118.30407779962643" zoom=9.377606751598156 bearing=-19.200000000000028 pitch=54.999999999999986
  slideshow>
 
@@ -75,6 +208,11 @@
 
     ready( () => {
       geo_map.dispatchEvent(new CustomEvent('SHOW HOME'))
+      
+      // Convert _text_ to <em>text</em>
+      document.querySelectorAll('map-location p, map-location h2').forEach(el => {
+        el.innerHTML = el.innerHTML.replace(/_([^_]+)_/g, '<em>$1</em>')
+      })
       
       // Handle wiki link clicks
       document.addEventListener('click', (e) => {
@@ -88,6 +226,52 @@
               slideshow.selectLocation(targetLocation)
             }
           }
+        }
+      })
+
+      // Control panel functionality
+      const prevBtn = document.getElementById('prev-btn')
+      const nextBtn = document.getElementById('next-btn')
+      const searchInput = document.getElementById('search-input')
+
+      prevBtn.addEventListener('click', () => {
+        geo_map.dispatchEvent(new CustomEvent('PREV SLIDE'))
+      })
+
+      nextBtn.addEventListener('click', () => {
+        geo_map.dispatchEvent(new CustomEvent('NEXT SLIDE'))
+      })
+
+      searchInput.addEventListener('keypress', (e) => {
+        if (e.key === 'Enter') {
+          const query = searchInput.value.trim().toLowerCase()
+          if (!query) return
+
+          const locations = [...document.querySelectorAll('map-location:not(.skip)')]
+          const queryWords = query.split(/\s+/)
+          
+          let bestMatch = null
+          let maxMatches = 0
+
+          locations.forEach(loc => {
+            const text = loc.textContent.toLowerCase()
+            const matches = queryWords.filter(word => text.includes(word)).length
+            if (matches > maxMatches) {
+              maxMatches = matches
+              bestMatch = loc
+            }
+          })
+
+          const slideshow = geo_map.map._controls.find(c => c.selectLocation)
+          if (slideshow) {
+            if (maxMatches > 0) {
+              slideshow.selectLocation(bestMatch)
+            } else {
+              const randomIndex = Math.floor(Math.random() * locations.length)
+              slideshow.selectLocation(locations[randomIndex])
+            }
+          }
+          searchInput.value = ''
         }
       })
     })

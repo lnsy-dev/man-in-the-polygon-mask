@@ -3,6 +3,7 @@ id: "rebecca-stein"
 title: "Rebecca Stein"
 type: "person"
 date: "Sat 07 Feb 2026 05:28:03 PM PST"
+pullQuote: "We thought we were making art about consciousness. We didn't realize we were making consciousness itself."
 ---
 
 **Rebecca Stein**

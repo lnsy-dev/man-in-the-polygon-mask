@@ -61,6 +61,8 @@ while(dirs.length > 0){
 			// Determine icon type from metadata
 			const type = data.type || (data.labels && data.labels[0]) || 'default'
 
+			const pullQuoteHTML = data.pullQuote ? `<div class="pull-quote">${data.pullQuote}</div>` : ''
+			
 			stubs += `
       <map-location
         latitude=${data.latitude}
@@ -72,6 +74,7 @@ while(dirs.length > 0){
         data-type="${type}"
       >
         <map-marker type="${type}"></map-marker>
+        ${pullQuoteHTML}
         <h1><map-marker type="${type}"></map-marker>${data.title}</h1>
         <article class="content">
           ${html_with_links}

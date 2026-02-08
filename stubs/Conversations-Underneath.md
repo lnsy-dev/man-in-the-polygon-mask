@@ -3,6 +3,7 @@ id: "conversations-underneath"
 title: "Conversations Underneath"
 type: "concept"
 date: "Sat 07 Feb 2026 05:24:38 PM PST"
+pullQuote: "It sounded like something trying to talk"
 ---
 
 **VENICE BEACH, Calif. (AP)** — National Guard personnel stationed at the Venice Beach quarantine perimeter have reported hearing unusual acoustic phenomena emanating from the site, according to internal military documents obtained by The Associated Press.

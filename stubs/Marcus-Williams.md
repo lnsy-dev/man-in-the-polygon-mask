@@ -3,6 +3,7 @@ id: "marcus-williams"
 title: "Marcus Williams"
 type: "person"
 date: "Sat 07 Feb 2026 05:28:03 PM PST"
+pullQuote: "The tissue is doing something with the plastic. Not breaking it. Talking to it."
 ---
 
 **Marcus Williams**

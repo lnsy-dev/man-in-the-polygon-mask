@@ -123,7 +123,7 @@ export default class SlideShowControls {
       return
     } else {
       const info_box = document.createElement('map-information-box')
-      info_box.innerHTML = location.innerHTML
+      info_box.innerHTML = location.innerHTML.replace(/_([^_]+)_/g, '<em>$1</em>')
       this.map_container.appendChild(info_box)
     }
 

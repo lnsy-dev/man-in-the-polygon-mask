@@ -3,6 +3,7 @@ id: "robert-chen-bio-materials"
 title: "Dr. Robert Chen"
 type: "person"
 date: "Sat 07 Feb 2026 05:28:03 PM PST"
+pullQuote: "Bio-plastics are inert materials. They don't want anything. They can't want anything."
 ---
 
 **Robert Chen, PhD**
