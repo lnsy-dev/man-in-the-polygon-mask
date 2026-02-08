@@ -5,6 +5,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Sci Fi Map</title>
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js"
+      }
+    }
+  </script>
   <script type="module" src="./src/index.js"></script>
   <script type="module" src="./src/html-partial.js"></script>
 
@@ -71,6 +78,17 @@
       left: 0em;
       top:  0em;
       width:  30em;
+    }
+
+    #viz-container {
+      position: fixed;
+      right: 0;
+      top: 0;
+      width: 400px;
+      height: 100vh;
+      background: rgba(0, 26, 0, 0.3);
+      border-left: 2px solid #00ff00;
+      z-index: 8000;
     }
     
     .mapboxgl-ctrl-top-right {
@@ -190,6 +208,7 @@
 <body>
 
   <div class="bg-image"></div>
+  <div id="viz-container"></div>
   
   <div id="control-panel">
     <button id="prev-btn">◄</button>
@@ -205,9 +224,26 @@
 
   <script type="module">
     import { ready } from './src/helpers.js'
+    import { DataViz } from './src/viz.js'
 
     ready( () => {
+      const viz = new DataViz(document.getElementById('viz-container'))
+      
+      // Update viz on location change
+      const observer = new MutationObserver(() => {
+        const infoBox = document.querySelector('map-information-box')
+        if (infoBox) {
+          const marker = infoBox.querySelector('map-marker')
+          if (marker) {
+            viz.setType(marker.getAttribute('type'))
+          }
+        }
+      })
+      observer.observe(geo_map, { childList: true, subtree: true })
+      
       geo_map.dispatchEvent(new CustomEvent('SHOW HOME'))
+      
+      window.addEventListener('resize', () => viz.resize())
       
       // Convert _text_ to <em>text</em>
       document.querySelectorAll('map-location p, map-location h2').forEach(el => {
